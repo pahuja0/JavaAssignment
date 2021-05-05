@@ -10,15 +10,7 @@ public class CREATEJsonFile2
     public static void main( String[] args )
     {
         
-         
-        //Second Employee
-        JSONObject employeeDetails2 = new JSONObject();
-        employeeDetails2.put("firstName", "Brian");
-        employeeDetails2.put("lastName", "Schultz");
-        employeeDetails2.put("website", "example.com");
-         
-        JSONObject employeeObject2 = new JSONObject(); 
-        employeeObject2.put("employee", employeeDetails2);
+       
          
         //Add employees to list
         JSONArray employeeList = new JSONArray();
